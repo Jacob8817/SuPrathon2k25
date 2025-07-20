@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.848.0",
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.3.0",
+    "multer": "^2.0.1",
+    "nodemon": "^3.1.10",
+    "pdf-parse": "^1.1.1",
+    "pdf2pic": "^3.2.0",
+    "pg": "^8.16.3",
+    "tesseract.js": "^6.0.1",
+    "text-from-pdf": "^1.1.2",
+    "uuid": "^11.1.0"
+  }
+}
